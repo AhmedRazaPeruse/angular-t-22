@@ -46,6 +46,18 @@ export class AppComponent {
       title:"Alam",
       address:"Islamabad"
     },
+    {
+      name:"Aslam",
+      age:"40",
+      title:"Kamran",
+      address:"Peshawar"
+    },
+    {
+      name:"Aqrar",
+      age:"38",
+      title:"Hassan",
+      address:"Karachi"
+    },
   ]
 
 }
