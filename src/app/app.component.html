@@ -1,0 +1,11 @@
+<h1>Parent to Child Data Transfer</h1>
+
+<app-users [hero]='_vita' ></app-users> 
+
+<!-- <app-subuser [zero]='_sita'></app-subuser> -->
+
+<h1>Reuseable Child Component</h1><br>
+
+<div *ngFor='let data of _dita'>
+    <app-subuser [zero]='data'></app-subuser>
+</div>
